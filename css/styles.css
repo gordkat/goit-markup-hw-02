@@ -13,7 +13,6 @@
 
 body {
   font-family: var(--main-font);
-  font-style: normal;
 }
 
 .list {
@@ -79,10 +78,9 @@ body {
 }
 
 .navigation-list-link:hover,
-.navigation-list-link:focus {
-  color: var(--accent-color);
-}
-
+.navigation-list-link:focus,
+.header-contacts-link:hover,
+.header-contacts-link:focus,
 .current {
   color: var(--accent-color);
 }
@@ -95,10 +93,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.header-contacts-link:hover,
-.header-contacts-link:focus {
-  color: var(--accent-color);
-}
+
 /* ======END HEADER======= */
 
 /* ======SOLUTIONS======= */
@@ -225,7 +220,8 @@ body {
 
 .footer-contacts-link-map:hover,
 .footer-contacts-link:hover,
-.footer-contacts-link-map:focus .footer-contacts-link:focus {
+.footer-contacts-link-map:focus,
+.footer-contacts-link:focus {
   color: var(--accent-color);
 }
 /* ======END FOOTER======= */
